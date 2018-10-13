@@ -1,5 +1,5 @@
 # Intro
-My code runs on any mac computer with pip and python3 installed. Start by unziping the archive.
+Start by installing pip and python3. 
 
 # Dependencies
 I use the pycryptodome package which can be installed with:
