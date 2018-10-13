@@ -1,7 +1,7 @@
-#Intro
+# Intro
 My code runs on any mac computer with pip and python3 installed. Start by unziping the archive.
 
-#Dependencies
+# Dependencies
 I use the pycryptodome package which can be installed with:
 ```
 pip install pycryptodome
@@ -39,7 +39,7 @@ After Mallory receives the message, follow the instructions to type d then enter
 **Use Mallory to modify a message.**
 First send another message from Alice. Then follow the instructions in Mallory's window to type m for modify and enter the new message to send.
 
-##Part 2
+## Part 2
 
 **Start Bob, Mallory, and Alice in "Enc-only" configuration.**
 Open 3 terminal windows. In window 1 for Bob type:
@@ -57,7 +57,7 @@ python3 Alice.py localhost 10001 --enc
 **Send messages from Alice to Mallory to Bob.**
 Enter a message in Alice's window. In Mallory's window follow the instructions to hit enter to forward the message.
 
-##Part 3
+## Part 3
 
 **Start Bob, Mallory, and Alice in "Mac-only" configuration.**
 Open 3 terminal windows. In window 1 for Bob type:
@@ -85,7 +85,7 @@ Send a message from Alice to Mallory. Then at the prompt, enter "d" into Mallory
 **Use Mallory to modify a message.**
 Send a message from Alice to Mallory. Then at the prompt, enter "m" into Mallory and specify the new message contents. Hit enter to send.
 
-##Part 4
+## Part 4
 
 Start Bob, Mallory, and Alice in "Enc-then-Mac" configuration.
 
